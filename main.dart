@@ -1,3 +1,4 @@
+//student grade evaluator
 import 'dart:io';
 
 void main() {
@@ -16,7 +17,7 @@ void main() {
   }
   String studentName = studentNameInput;
 
-  // Input score assignment
+  // Input score assignment, midterm, finals
   double assignmentScore = 0;
   print("Enter your Assignment Score: ");
   String? assignmentInput = stdin.readLineSync();
